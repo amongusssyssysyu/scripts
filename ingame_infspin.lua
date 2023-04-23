@@ -153,7 +153,7 @@ end)
 
 repeat wait() until game:IsLoaded()
 TextLabel.Text = 'MAKING SURE GAME IS LOADED'
-wait(5)
+wait(8)
 
 local function GetSpins()
     local Spins = game:GetService("Players").LocalPlayer.PlayerGui.Gui.Ui.UiModule.Modules.Shop.RerollClan.RollClanFrame.Clan.Spins.Text
